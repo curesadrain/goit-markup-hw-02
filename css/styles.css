@@ -19,14 +19,6 @@ ul {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
 }
 
 .body-text {
@@ -58,9 +50,9 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   .accent {
-    color: #4d5ae5;
+    color: #2e2f42;
   }
 }
 
@@ -75,12 +67,16 @@ ul {
   color: #2e2f42;
 }
 
-.nav-item:hover,
-.nav-item:focus {
+.nav-link {
+}
+
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
 .contacts {
+  font-style: normal;
 }
 
 .contacts-list {
@@ -93,8 +89,11 @@ ul {
   color: #434455;
 }
 
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts-link {
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -120,6 +119,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* -----------------------------FEATURES--------------------------------- */
@@ -145,6 +150,7 @@ ul {
 }
 
 .team-title {
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -156,6 +162,7 @@ ul {
 }
 
 .team-item {
+  background-color: #fff;
 }
 
 .team-img {
@@ -175,9 +182,10 @@ ul {
 
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -208,9 +216,9 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
   .accent {
-    color: #4d5ae5;
+    color: #f4f4fd;
   }
 }
 
