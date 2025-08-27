@@ -51,9 +51,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  .accent {
-    color: #2e2f42;
-  }
+}
+
+.nav-logo .accent {
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -217,9 +218,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  .accent {
-    color: #f4f4fd;
-  }
+}
+
+.footer-logo .accent {
+  color: #f4f4fd;
 }
 
 .footer-text {
